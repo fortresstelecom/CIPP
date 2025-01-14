@@ -25,9 +25,9 @@ Enabling the CIPP API requires the following:
   4. In the left-hand menu of the subscription, select "Access control (IAM)".
   5. At the top of the Access control (IAM) pane, click "+ Add".
   6. In the drop-down menu, select "Add role assignment".
-  7. In the "Role" drop-down list, type "Contributor" and select it. The Contributor role should allow the user to create and manage all types of Azure resources but does not allow them to grant access to others.
+  7. Select "Privileged administrator roles" then "Contributor" then "Next". The Contributor role should allow the user to create and manage all types of Azure resources but does not allow them to grant access to others.
   8. In the "Assign access to" drop-down menu, select "User, group, or service principal".
-  9. In the "Select" field, type "CIPP-SAM". As you begin typing, the list of options will narrow. If the user CIPP-SAM exists in your Azure AD, you should be able to select it.
+  9. In the "Members" field, click "Select members", type "CIPP-SAM". As you begin typing, the list of options will narrow. If the user CIPP-SAM exists in your Azure AD, you should be able to select it.
   10. After you've selected the user, click "Save" to assign the role.
 * After enablement of the API a new application will be created in your tenant.
 
